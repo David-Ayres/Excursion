@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: aquamarine;
+    text-align: center;
+    font-size: 16px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+}
+
+
+
+  
+
+  h2{
+    color: grey;
+    text-align: right;
+    padding-left: 780px;
+  }
+
+  .video::-webkit-media-controls-start-playback-button,
+.video::-webkit-media-controls-play-button,
+.video::-webkit-media-controls {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .video {
+    /* Additional styles for smaller screens if needed */
+    
+  }
+}
+
